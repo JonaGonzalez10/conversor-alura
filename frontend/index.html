@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+    <title>Index</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo">
+            <img src="img/logo.jpeg" alt="Logo">
+        </div>
+        <div class="titulo">
+            <h1>Conversor de monedas</h1>
+        </div>
+        <div class="redes_sociales">
+            <a href="#" target="_blank"><img src="img/facebook.png" alt=""></a>
+            <a href="#" target="_blank"><img src="img/instagram.png" alt=""></a>
+            <a href="#" target="_blank"><img src="img/github.png" alt=""></a>
+            <a href="#" target="_blank"><img src="img/linkedin.png" alt=""></a>
+        </div>
+    </header>
+    <div class="contenido">
+        <h2>Conversor de monedas</h2>
+        <form id="conversor-form">
+            <div class="grupo-from">
+                <label for="from">De:</label>
+                <select name="from" id="from">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="ars">ARS</option>
+                    <option value="brl">BRL</option>
+                    <option value="clp">CLP</option>
+                    <option value="mxn">MXN</option>
+                </select>
+                <label for="to">a</label>
+                <select name="to" id="to">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+                    <option value="ars">ARS</option>
+                    <option value="brl">BRL</option>
+                    <option value="clp">CLP</option>
+                    <option value="mxn">MXN</option>
+                </select>
+            </div>
+            <div class="resultado">
+                <input type="cantidad" id="cantidad" name="cantidad">
+                <button type="button" id="btn-convertir">Convertir</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2020 Jony's Conversor</p>
+    </footer>
+
+</body>
+</html>
